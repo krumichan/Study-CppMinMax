@@ -1,0 +1,13 @@
+#ifndef _SORTDIRECTION_H_
+#define _SORTDIRECTION_H_
+
+/**
+ * ソートの方向の列挙型
+ */
+enum SORT_DIRECTION {
+	SORT_DIRECTION_ASC      //!< SORT_DIRECTION_ASC　昇順
+	,SORT_DIRECTION_DESC    //!< SORT_DIRECTION_DESC　降順
+	,SORT_DIRECTION_ENUM_MAX//!< SORT_DIRECTION_ENUM_MAX　列挙型のサイズ
+};
+
+#endif
